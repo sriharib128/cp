@@ -1,0 +1,10 @@
+x=4
+p_x= 0x7ffdf4568bdc
+*p_x =4 
+value at p_x =4
+0x7ffdf4568be0
+Here on adding one to p_x it adds 4 bytes 
+     For Ex:_ if p_x stored 1st loaction then p_x will be equal to the 5 th location
+p_p_x = 0x7ffdf4568be0 the value of location of p_x
+*p_p_x = 0x7ffdf4568bdc the value of p_x which is &x
+**p_p_x = 4 the value of x
