@@ -21,9 +21,7 @@ int main()
 	for(long long int i=0;i<n;i++)
 	{
 		cin>>A[i];
-		// cout<<A[i]<<" ";
 	}
-
 	long long int hi=1e9 , lo=0 , mid;
 
 	while(hi-lo>1)
@@ -43,10 +41,3 @@ int main()
 
 	cout<<isSuff(31,n);
 }
-
-/*INPUT
-4 7
-20 15 10 17
-
-OUTPUT - 15
-*/
