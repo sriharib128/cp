@@ -8,7 +8,7 @@ int main()
 
 	double lo=0,hi=n,mid;
 
-	double prec = 1e-7; // gives precision upto 6 digits
+	double prec = 1e-2; // gives precision upto 6 digits
 
 	while(hi-lo>prec)
 	{
@@ -20,7 +20,7 @@ int main()
 			lo = mid;
 	}
 	
-	cout<<fixed<<setprecision(9)<<lo<<" and \n"<<hi<<endl;
+	cout<<fixed<<setprecision(3)<<lo<<" and "<<hi<<endl;
 	cout<<pow(n,(1.0/3))<<" - using pow"<<endl;
 	
 }
