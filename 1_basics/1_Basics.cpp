@@ -1,11 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int n = 1e7 // should add const when declaring global variables
+const int n = 1e7; // should add const when declaring global variables
 //u can max store 10^7 in global variable without a segmentation fault occuring
 
 // u can max store 10^5 in local varibale without getting a segmentation fault
-
-
 
 void increment(int n , int &n1)//here & represents pass by reference
 {
@@ -22,10 +20,10 @@ void incr(int n) // Call by value
 int main(){
 
 	bool d =-12;
-	bool a = 14;
-	bool b = 0;
+	bool a1 = 14;
+	bool b1 = 0;
 // all numbers of other than 0 is True
-	cout<<a<<endl<<b<<endl<<d<<endl;
+	cout<<a1<<endl<<b1<<endl<<d<<endl;
 
 	char c='a';
 	cout<<(int)c<<endl;
@@ -38,16 +36,16 @@ int main(){
 	double f;
 	char g;
 	cin>>e>>f>>g;
-	cout<<e<<" "<<f<<" "<<g<<" "<<(int) g<<endl;
+	cout<<e<<" "<<fixed<<f<<" "<<g<<" "<<(int) g<<endl;
 
 	cout<<3/2<<" "<< 3/2.0<<"\n";
 
 //OverFlow
-	int p =100000;
-	int q= 100000;
+	int p =1000000;
+	int q= 1000000;
 	
-	long int r = p*q;
-	long int k = q*1LL*q; //1LL is long Long integer  like 1.0 is double
+	long long int r = p*q;
+	long long int k = q*1LL*q; //1LL is long Long integer  like 1.0 is double
 	cout<<r<<" "<<k<<"\n";
 
 /* The problem with using double is that we can store huge values but 
@@ -60,7 +58,7 @@ int main(){
 // anything can come inside the for loop 
 	for(int i=1;i<=10;cout<<i++<<endl){}
 
-// while submitting in online if they ask for tesct cases
+// // while submitting in online if they ask for tesct cases
 	int t;
 	cin>>t;
 	while(t--){
