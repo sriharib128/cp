@@ -28,10 +28,10 @@ int main(){
 	getline(cin,str2);
 	cout<<str2<<" this is string 2"<<endl;
 /* Here we did not get anything in output for printing str1
-	This is because after taking hello for s2 in line 8 it ecnounters space so stops there
-	Then when we take again cin in line 20, it takes world for s adn abd for s2	
-	the coursor is still in the line of abd
-	Now, when we use getline in line 26 we are talking the empty ine from abd till it encouters new line
+	This is because after taking hello for s2 in line 8 it encounters space so stops there
+	Then when we take again cin in line 20, it takes world for s and abd for s2	
+	the cursor is still in the line of abd
+	Now, when we use getline in line 26 we are talking the empty line from abd till it encouters new line
 	Now, get line in line 28 takes the next line "pqr  rst" to str2
 */
 // to remove this problem we use cin.ignore() - It ignore the remaining line
@@ -51,7 +51,7 @@ int main(){
 	 cin.ignore();
 	}
 
-// the above code using cin.ignore
+// // the above code using cin.ignore
 	
 	cin>>t;
 	cin.ignore();
@@ -70,7 +70,7 @@ int main(){
 	cout<<s_reverse<<endl;
 // We use push back method instead of taking each character from back and adding them to a string as its time complexity is more.
 
-/* When working with very large numbers, we input them as strings a to each character er subtract their '0'ascii value from them.
+/* When working with very large numbers, we input them as strings and to each character we subtract their '0'ascii value from them.
 	This will give the actual number*/
 }
 

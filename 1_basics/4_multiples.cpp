@@ -16,7 +16,7 @@ int lcm(int a, int b){
 int main(){
 
 	int a,b,c; // a and b are numbers and in a set of multiples of a and b we are finding cth number
-			   // And we are printh from  cth num to 0 with a step of a or b or lcm of a,b
+			   // And we are print from  cth num to 0 with a step of a or b or lcm of a,b
 	cin>>a>>b>>c;
 	int cthnum = 1;
 	for (int i =2; c>0 ; i++){

@@ -1,26 +1,10 @@
-1
-0
-1
-97
--1
-5 5.000000 5 53
-1 1.500000
--727379968 1000000000000
-999999999999999983222784.000000
-999999999999999983222784.000000
-
-999999999999999983222784
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-3
-3
-3 5
-3 6
+x=4
+p_x= 0x5ffe94
+*p_x =4 
+value at p_x =4
+0x5ffe98
+Here on adding one to p_x it adds 4 bytes 
+     For Ex:_ if p_x stored 1st loaction then p_x will be equal to the 5 th location
+p_p_x = 0x5ffe88 the value of location of p_x
+*p_p_x = 0x5ffe94 the value of p_x which is &x
+**p_p_x = 4 the value of x
